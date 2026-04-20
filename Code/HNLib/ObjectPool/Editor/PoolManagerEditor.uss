@@ -1,0 +1,47 @@
+.top_bar {
+    flex-basis: 45px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(190, 190, 190);
+    border-bottom-width: 1px;
+}
+
+.item_view {
+    flex-grow: 1;
+}
+
+.inspector_view {
+    flex-grow: 1;
+}
+
+.red_btn {
+    padding-top: 4px;
+    padding-right: 9px;
+    padding-bottom: 4px;
+    padding-left: 9px;
+    background-color: rgb(218, 33, 33);
+    border-left-color: rgb(136, 33, 33);
+    border-right-color: rgb(136, 33, 33);
+    border-top-color: rgb(136, 33, 33);
+    border-bottom-color: rgb(136, 33, 33);
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+.red_btn:hover {
+    padding-top: 4px;
+    padding-right: 9px;
+    padding-bottom: 4px;
+    padding-left: 9px;
+    background-color: rgb(213, 77, 77);
+    border-left-color: rgb(136, 33, 33);
+    border-right-color: rgb(136, 33, 33);
+    border-top-color: rgb(136, 33, 33);
+    border-bottom-color: rgb(136, 33, 33);
+}

@@ -1,0 +1,17 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/HNLib/ObjectPool/Editor/PoolManagerEditor.uss?fileID=7433441132597879392&amp;guid=9d741ef53c0829e49adb753c38d2e2d5&amp;type=3#PoolManagerEditor" />
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:VisualElement name="TopBar" class="top_bar">
+            <ui:Label text="PoolManager" name="TitleLabel" style="-unity-font-style: bold; font-size: 15px;" />
+            <ui:Button text="Create Item" name="CreateBtn" class="red_btn" />
+        </ui:VisualElement>
+        <HNLib.ObjectPool.Editor.GGMSplitView name="SplitView" fixed-pane-initial-dimension="280">
+            <ui:VisualElement name="LeftPannel" style="flex-grow: 1;">
+                <ui:ScrollView name="ItemView" class="item_view" />
+            </ui:VisualElement>
+            <ui:VisualElement name="RightPannel" style="flex-grow: 1;">
+                <ui:VisualElement name="InspectorView" class="inspector_view" />
+            </ui:VisualElement>
+        </HNLib.ObjectPool.Editor.GGMSplitView>
+    </ui:VisualElement>
+</ui:UXML>

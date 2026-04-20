@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd858b3bc5a44ed7838ac911b91a605c, type: 3}
+  m_Name: GolemAttackEffect
+  m_EditorClassIdentifier: 
+  poolingName: GolemAttackEffect
+  prefab: {fileID: 300190742955117520, guid: 29d269535ca35d74a9362ea9d76630e5, type: 3}
+  initCount: 3

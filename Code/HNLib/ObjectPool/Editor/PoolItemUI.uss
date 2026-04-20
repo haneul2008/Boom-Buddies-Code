@@ -1,0 +1,95 @@
+.pool_item {
+    flex-grow: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-left-color: rgb(176, 176, 176);
+    border-right-color: rgb(176, 176, 176);
+    border-top-color: rgb(176, 176, 176);
+    border-bottom-color: rgb(176, 176, 176);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+.pool_item:hover {
+    flex-grow: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-left-color: rgb(176, 176, 176);
+    border-right-color: rgb(176, 176, 176);
+    border-top-color: rgb(176, 176, 176);
+    border-bottom-color: rgb(176, 176, 176);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(91, 91, 91);
+}
+
+.pool_item.active {
+    flex-grow: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-left-color: rgb(218, 218, 218);
+    border-right-color: rgb(218, 218, 218);
+    border-top-color: rgb(218, 218, 218);
+    border-bottom-color: rgb(218, 218, 218);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(132, 130, 130);
+}
+
+.item_name {
+    text-overflow: ellipsis;
+    flex-basis: 50px;
+    flex-grow: 1;
+    overflow: hidden;
+    margin-right: 5px;
+}

@@ -1,0 +1,18 @@
+{
+    "name": "ObjectPool.EditorAssembly",
+    "rootNamespace": "",
+    "references": [
+        "GUID:03bbcf52960e76c4eac8319511a0eff7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
